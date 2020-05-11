@@ -18,7 +18,7 @@
             Tipos de navegação:
                 nav-pills
                 nav-tabs
-                nav-fill
+                    nav-fill
             opções de alinhamento:
                 justify-content-center
                 justify-content-end
@@ -26,7 +26,7 @@
                 nav-justified
             -->
             <h2>Navegação simples / abas</h2>
-            <ul class="nav nav-tabs nav-justified">
+            <ul class="nav nav-pills flex-column text-center">
                 <li class="nav-item">
                     <a href="" class="nav-link active">Home</a>
                 </li>
@@ -44,10 +44,9 @@
             <br><br>
 
             <h2>Barra de navegação simples</h2>
-            <nav class="navbar navbar-expand-sm navbar-dark bg-primary">
+            <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
                 <!-- Logo -->
                 <a href="" class="navbar-brand">
-                    <img src="../../../repo/site-engenharia-cartografica/img/logo.png">
                     Engenharia Cartográfica
                 </a>
 
@@ -76,12 +75,12 @@
                 </a>
 
                 <!-- Menu Hamburguer-->
-                <button class="navbar-toggler" data-toggle="collapse" data-target="#nav-target">
+                <button class="navbar-toggler" data-toggle="collapse" data-target="#navegacao1">
                     <span class="navbar-toggler-icon"></span>
                 </button>
 
                 <!-- Navegação -->
-                <div class="collapse navbar-collapse" id="nav-target">
+                <div class="collapse navbar-collapse" id="navegacao1">
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item">
                             <a href="" class="nav-link active">Home</a>
@@ -96,10 +95,156 @@
                 </div>
             </nav>
 
+            <br><br>
 
+            <h2>Barra de navegação com formulário</h2>
+            <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+                <!-- Logo -->
+                <a href="" class="navbar-brand">
+                    <img src="../../../repo/site-engenharia-cartografica/img/logo.png">
+                    Engenharia Cartográfica
+                </a>
 
+                <!-- Menu Hamburguer-->
+                <button class="navbar-toggler" data-toggle="collapse" data-target="#navegacao2">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
 
+                <!-- Navegação -->
+                <div class="collapse navbar-collapse" id="navegacao2">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a href="" class="nav-link active">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="" class="nav-link">Sobre</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="" class="nav-link">Serviços</a>
+                        </li>
+                    </ul>
 
+                    <!-- Formulário -->
+                    <form class="form-inline">
+                        <input type="text" class="form-control" placeholder="Pesquisar...">
+                        <button class="btn btn-outline-success">OK</button>
+                    </form>
+                </div>
+            </nav>
+
+            <br><br>
+
+            <h2>Barra de navegação com menu Dropdown</h2>
+            <nav class="navbar navbar-expand-sm navbar-dark bg-secondary">
+                <!-- Logo -->
+                <a href="" class="navbar-brand">
+                    <img src="../../../repo/site-engenharia-cartografica/img/logo.png">
+                    Engenharia Cartográfica
+                </a>
+
+                <!-- Menu Hamburguer-->
+                <button class="navbar-toggler" data-toggle="collapse" data-target="#navegacao3">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Navegação -->
+                <div class="collapse navbar-collapse" id="navegacao3">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a href="" class="nav-link active">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="" class="nav-link">Sobre</a>
+                        </li>
+
+                        <!-- Menu dropdown -->
+                        <li class="nav-item dropdown">
+                            <a href="" class="nav-link dropdown-toggle" data-toggle="dropdown">Serviços</a>
+
+                            <div class="dropdown-menu">
+                                <a href="" class="dropdown-item">Serviço 1</a>
+                                <a href="" class="dropdown-item">Serviço 2</a>
+                                <a href="" class="dropdown-item">Serviço 3</a>
+                            </div>
+
+                        </li>
+
+                    </ul>
+                </div>
+            </nav>
+
+            <br><br>
+
+            <!-- Cores
+            opções: bg-primary, bg-secondary, bg-success, bg-info, bg-warning, bg-danger, bg-light, bg-dark
+            -->
+            <h2>Cores</h2>
+            <nav class="navbar navbar-expand-sm navbar-light bg-info">
+                <!-- Logo -->
+                <a href="" class="navbar-brand">
+                    Engenharia Cartográfica
+                </a>
+
+                <!-- Navegação -->
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a href="" class="nav-link active">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="" class="nav-link">Sobre</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="" class="nav-link">Serviços</a>
+                    </li>
+                </ul>
+            </nav>
+
+            <br><br>
+
+            <!-- Alinhamentos
+            opções: fixed-top, fixed-bottom, sticky-top
+            -->
+            <h2>Alinhamentos</h2>
+            <nav class="navbar sticky-top navbar-expand-sm navbar-dark bg-success">
+                <!-- Logo -->
+                <a href="" class="navbar-brand">
+                    Alinhamentos
+                </a>
+
+                <!-- Navegação -->
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a href="" class="nav-link active">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="" class="nav-link">Sobre</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="" class="nav-link">Serviços</a>
+                    </li>
+                </ul>
+            </nav>
+
+            <h1>lorem ipsum dolor sit amet</h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam quos fuga suscipit in possimus, voluptatum quia repudiandae aliquid consequuntur at voluptas quisquam laudantium, aut quam labore temporibus a saepe. Reiciendis!</p>
+
+            <h1>lorem ipsum dolor sit amet</h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam quos fuga suscipit in possimus, voluptatum quia repudiandae aliquid consequuntur at voluptas quisquam laudantium, aut quam labore temporibus a saepe. Reiciendis!</p>
+
+            <h1>lorem ipsum dolor sit amet</h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam quos fuga suscipit in possimus, voluptatum quia repudiandae aliquid consequuntur at voluptas quisquam laudantium, aut quam labore temporibus a saepe. Reiciendis!</p>
+
+            <h1>lorem ipsum dolor sit amet</h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam quos fuga suscipit in possimus, voluptatum quia repudiandae aliquid consequuntur at voluptas quisquam laudantium, aut quam labore temporibus a saepe. Reiciendis!</p>
+
+            <h1>lorem ipsum dolor sit amet</h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam quos fuga suscipit in possimus, voluptatum quia repudiandae aliquid consequuntur at voluptas quisquam laudantium, aut quam labore temporibus a saepe. Reiciendis!</p>
+
+            <h1>lorem ipsum dolor sit amet</h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam quos fuga suscipit in possimus, voluptatum quia repudiandae aliquid consequuntur at voluptas quisquam laudantium, aut quam labore temporibus a saepe. Reiciendis!</p>
+
+            <h1>lorem ipsum dolor sit amet</h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam quos fuga suscipit in possimus, voluptatum quia repudiandae aliquid consequuntur at voluptas quisquam laudantium, aut quam labore temporibus a saepe. Reiciendis!</p>
 
             <!-- Optional JavaScript -->
             <!-- jQuery first, then Popper.js, then Bootstrap JS -->
