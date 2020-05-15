@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="pt-br">
     <head>
-        <title>Bootstrap 4 - Classes do Flebox</title>
+        <title>Bootstrap 4 - Margin e Wrap</title>
 
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> 
@@ -25,56 +25,46 @@
     <body>
         
         <div class="container">
-            
-            <h2>Flex container e flex itens (d-flex, flex-row, flex-column, flex-row-reverse, flex-column-reverse)</h2>
-            <div class="caixa d-flex flex-column-reverse">
-                <div class="item">Flex item 1</div>
-                <div class="item">Flex item 2</div>
-                <div class="item">Flex item 3</div>
-            </div>
 
-            <br><br>
-
-            <h2>Alinhamento horizontal: justify-content-ALINHAMENTO (start, center, end, around e between)</h2>
-            <div class="caixa d-flex justify-content-center">
-                <div class="item">Flex item 1</div>
-                <div class="item">Flex item 2</div>
-                <div class="item">Flex item 3</div>
-            </div>
-
-            <br><br>
-
-            <h2>Colunas (d-flex, flex-column, flex-column-reverse)</h2>
-            <div class="caixa d-flex flex-column">
-                <div class="item">Flex item 1</div>
-                <div class="item">Flex item 2</div>
-                <div class="item">Flex item 3</div>
-            </div>
-
-            <br><br>
-
-            <h2>Alinhamento vertical: align-items-ALINHAMENTO (start, center, end, baseline e stretch)</h2>
-            <div class="caixa d-flex align-items-stretch">
-                <div class="item">Flex item 1</div>
-                <div class="item">Flex item 2</div>
-                <div class="item">Flex item 3</div>
-            </div>
-
-            <br><br>
-
-            <h2>Alinhamento self: align-self-ALINHAMENTO (start, center, end, baseline e stretch)</h2>
+            <h2>Margin right/left auto (mr-auto, ml-auto, mx-auto)</h2>
             <div class="caixa d-flex">
-                <div class="item align-self-center">Flex item 1</div>
-                <div class="item align-self-end">Flex item 2</div>
-                <div class="item align-self-baseline">Flex item 3</div>
-                <div class="item align-self-strech">Flex item 4</div>
-                <div class="item align-self-start">Flex item 5</div>
+                <div class="item mr-auto">Flex item 1</div>
+                <div class="item mr-auto">Flex item 2</div>
+                <div class="item">Flex item 3</div>
+            </div>
+            
+            <br><br>
+
+            <h2>Margin bottom/top auto (mt-auto, mb-auto, my-auto)</h2>
+            <div class="caixa d-flex flex-column">
+                <div class="item mb-auto">Flex item 1</div>
+                <div class="item mb-auto">Flex item 2</div>
+                <div class="item">Flex item 3</div>
             </div>
 
             <br><br>
 
-        </div>
+            <h2>Wrap (flex-wrap, flex-nowrap)</h2>
+            <div class="caixa d-flex flex-wrap">
+                <div class="item">Flex item 1</div>
+                <div class="item">Flex item 2</div>
+                <div class="item">Flex item 3</div>
+                <div class="item">Flex item 4</div>
+                <div class="item">Flex item 5</div>
+                <div class="item">Flex item 6</div>
+                <div class="item">Flex item 7</div>
+                <div class="item">Flex item 8</div>
+                <div class="item">Flex item 9</div>
+                <div class="item">Flex item 10</div>
+                <div class="item">Flex item 11</div>
+                <div class="item">Flex item 12</div>
+                <div class="item">Flex item 13</div>
+                <div class="item">Flex item 14</div>
+                <div class="item">Flex item 15</div>
+            </div>
 
+            <br><br>
+        </div>
 
 
 
@@ -84,4 +74,5 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
         <script src="js/bootstrap.min.js"></script>
     </body>
+
 </html>
